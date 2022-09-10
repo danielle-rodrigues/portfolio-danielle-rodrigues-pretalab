@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    background-color: #0D0F08;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.lista-menu li>a {
+    
+}
